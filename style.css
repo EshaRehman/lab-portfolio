@@ -412,14 +412,6 @@ header {
 
 /* General styles remain unchanged */
 
-.imagemenuicon {
-  width: 24px;
-  height: 24px;
-  padding-top: 10px;
-  padding-right: 20px;
-  cursor: pointer;
-}
-
 /* Mobile Menu Styling */
 .mobile-menu {
   display: none; /* Hidden by default */
@@ -428,9 +420,8 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(96, 112, 255, 0.95);  
+  background-color: rgba(96, 112, 255, 0.95);
   z-index: 1000;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
