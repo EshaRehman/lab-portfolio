@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="mobile_menu.js"></script> <!-- JavaScript Link -->
   </head>
   <body>
     <main>
@@ -13,11 +14,25 @@
           <h1 class="mylogo">My Logo</h1>
         </div>
         <img
+          id="hamburger-icon"
           class="imagemenuicon"
-          src="Assets\Icon - Menu.png"
+          src="Assets/Icon - Menu.png"
           alt="menu icon"
         />
       </header>
+
+          <!-- Mobile Menu (Initially Hidden) -->
+      <nav id="mobile-menu" class="mobile-menu">
+        <ul>
+          <li><a href="#home" class="menu-link">Home</a></li>
+          <li><a href="#about" class="menu-link">About</a></li>
+          <li><a href="#projects" class="menu-link">Projects</a></li>
+          <li><a href="#contact" class="menu-link">Contact</a></li>
+          <li id="close-menu">
+            <img src="Assets/Enabled.png" alt="Close menu" class="close-icon" /> <!-- Close Icon -->
+          </li>
+        </ul>
+      </nav>
 
       <section class="headliner">
         <h2 class="headlinertext">
